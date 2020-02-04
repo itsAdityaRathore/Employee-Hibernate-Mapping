@@ -41,6 +41,14 @@ public class Employee {
     public Employee() {
     }
 
+    public Employee(String name, String phone, Bank bank, Set<Insurance> insurances, Set<Domain> domain) {
+        this.name = name;
+        this.phone = phone;
+        this.bank = bank;
+        this.insurances = insurances;
+        this.domain = domain;
+    }
+
     public Set<Domain> getDomain() {
         return domain;
     }
